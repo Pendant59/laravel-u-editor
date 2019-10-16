@@ -1,6 +1,9 @@
-Laravel 6  UEditor
+Laravel 6.x  UEditor
 =============
 Forked From [stevenyangecho/laravel-u-editor](https://github.com/stevenyangecho/laravel-u-editor)
+
+注意：此包仅用于发包支持laravel6.x,不进行版本迭代和新功能开发
+新功能以及包的维护，请各位关注原作者[stevenyangecho/laravel-u-editor](https://github.com/stevenyangecho/laravel-u-editor)的更新包
 
 [UEditor](http://ueditor.baidu.com) 是由百度web前端研发部开发所见即所得富文本web编辑器
 
@@ -14,7 +17,12 @@ UEditor 前台文件完全无修改,可自由gulp等工具部署到生产环境
 
 
 ## ChangeLog
+  v1.5.1 
+  
+  Support laravel6
+  
   v1.5.0
+  
   测试laravel6
   
   v1.4.5
@@ -43,7 +51,7 @@ UEditor 前台文件完全无修改,可自由gulp等工具部署到生产环境
 ## 重要提示
 有些同学配置总是不成功,除了一般设置,权限等基础问题,很大的可能是 middleware和 csrf 没配置好.
 因为这两点对于服务器的安全至关重要,因此都是必须配置正确的,否则无法运行.
-如何配置需要一定基础,对于看完且理解L5官方文档的同学,应该都有此基础.
+如何配置需要一定基础,对于看完且理解L6官方文档的同学,应该都有此基础.
 
 
 
@@ -56,6 +64,10 @@ To get the latest version of Laravel Exceptions, simply add the following line t
 
 ```
 "pendant/laravel-u-editor": "~1.5"
+```
+or installation by Composer:
+```
+composer require pendant/laravel-u-editor 1.5.*
 ```
 
 You'll then need to run `composer install` or `composer update` to download it and have the autoloader updated.
@@ -126,11 +138,6 @@ in  your \<head>  block just put
 
 
 The detail useage Please see [http://ueditor.baidu.com](http://ueditor.baidu.com) 
-
-## TODO
-
-1. 跨域上传
-
  
 ## License
 
