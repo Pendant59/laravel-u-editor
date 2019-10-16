@@ -4,7 +4,7 @@ Forked From [stevenyangecho/laravel-u-editor](https://github.com/stevenyangecho/
 
 [UEditor](http://ueditor.baidu.com) 是由百度web前端研发部开发所见即所得富文本web编辑器
 
-此包为laravel5的支持,新增多语言配置,可自由部署前端代码,默认基于 UEditor 1.4.3.3
+此包为laravel6的支持,新增多语言配置,可自由部署前端代码,默认基于 UEditor 1.4.3.3
 
 UEditor 前台文件完全无修改,可自由gulp等工具部署到生产环境
  
@@ -14,6 +14,9 @@ UEditor 前台文件完全无修改,可自由gulp等工具部署到生产环境
 
 
 ## ChangeLog
+  v1.5.0
+  测试laravel6
+  
   v1.4.5
 
   增加laravel的storage的支持
@@ -52,7 +55,7 @@ UEditor 前台文件完全无修改,可自由gulp等工具部署到生产环境
 To get the latest version of Laravel Exceptions, simply add the following line to the require block of your `composer.json` file:
 
 ```
-"stevenyangecho/laravel-u-editor": "~1.4"
+"pendant/laravel-u-editor": "~1.5"
 ```
 
 You'll then need to run `composer install` or `composer update` to download it and have the autoloader updated.
@@ -131,5 +134,5 @@ The detail useage Please see [http://ueditor.baidu.com](http://ueditor.baidu.com
  
 ## License
 
-Laravel 5  UEditor is licensed under [The MIT License (MIT)](LICENSE).
+Laravel 6  UEditor is licensed under [The MIT License (MIT)](LICENSE).
 
