@@ -1,4 +1,4 @@
-<?php namespace Stevenyangecho\UEditor;
+<?php namespace Pendant\UEditor;
 
 use \Qiniu\Storage\BucketManager;
 use \Qiniu\Auth;
@@ -6,7 +6,7 @@ use \Qiniu\Auth;
 /**
  * 列表文件 for 七牛
  * Class ListsQiniu
- * @package Stevenyangecho\UEditor
+ * @package Pendant\UEditor
  */
 class ListsQiniu
 {

@@ -1,31 +1,31 @@
 {
-  "name": "stevenyangecho/laravel-u-editor",
-  "description": "UEditor for laravel5. Support i18n. UEditor is a Rich Text Web Editor From Baidu.",
+  "name": "pendant/laravel-u-editor",
+  "description": "Forked from stevenyangecho/laravel-u-editor.Test UEditor for laravel6. Support i18n. UEditor is a Rich Text Web Editor From Baidu.",
   "keywords": [
     "laravel",
     "ueditor",
     "laravel-u-editor",
     "laravel5 web text editor",
     "stevenyangecho",
-    "steven yang"
+    "steven yang",
+    "pendant pendant59"
   ],
   "license": "MIT",
   "authors": [
     {
-      "name": "Steven Yang",
-      "email": "yqmking@163.com"
+      "name": "pendant"
     }
   ],
-
+  "homepage": "https://github.com/Pendant59/laravel-u-editor",
   "require": {
     "php": ">=5.4.0",
     "ext-fileinfo": "*",
-    "illuminate/support": "5.*",
+    "illuminate/support": "6.*",
     "qiniu/php-sdk": "7.*"
   },
   "autoload": {
     "psr-4": {
-      "Stevenyangecho\\UEditor\\": "src/"
+      "Pendant\\UEditor\\": "src/"
     }
   },
   "minimum-stability": "dev",

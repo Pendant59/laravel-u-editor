@@ -1,5 +1,5 @@
 <?php
-namespace Stevenyangecho\UEditor\Uploader;
+namespace Pendant\UEditor\Uploader;
 use Upyun\Upyun;
 use Upyun\Config as UpyunConfig;
 
@@ -7,7 +7,7 @@ use Upyun\Config as UpyunConfig;
 /**
  * trait UploadUpyun
  * 又拍云 上传 类
- * @package Stevenyangecho\UEditor\Uploader
+ * @package Pendant\UEditor\Uploader
  */
 trait UploadUpyun{
 

@@ -1,5 +1,6 @@
-Laravel 5  UEditor
+Laravel 6  UEditor
 =============
+Forked From [stevenyangecho/laravel-u-editor](https://github.com/stevenyangecho/laravel-u-editor)
 
 [UEditor](http://ueditor.baidu.com) 是由百度web前端研发部开发所见即所得富文本web编辑器
 
@@ -58,11 +59,11 @@ You'll then need to run `composer install` or `composer update` to download it a
 
 Once Laravel Exceptions is installed, you need to register the service provider. Open up `config/app.php` and add the following to the `providers` key.
 
-* `'Stevenyangecho\UEditor\UEditorServiceProvider'`
+* `'Pendant\UEditor\UEditorServiceProvider'`
 
 If Lumen
 
-* `$app->register(Stevenyangecho\UEditor\LumenUEditorServiceProvider);`
+* `$app->register(Pendant\UEditor\LumenUEditorServiceProvider);`
 
 then run 
 
